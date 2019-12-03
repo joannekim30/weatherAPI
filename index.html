@@ -49,7 +49,7 @@
         }
 
       
-		let query = "http://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=" + units +"&APPID=532c3ae54313ceeddbc9beaa572a8c3a";
+		let query = "https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=" + units +"&APPID=532c3ae54313ceeddbc9beaa572a8c3a";
         console.log("Query is :" + query);
 
         $.getJSON(query,function(json){
